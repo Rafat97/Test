@@ -1,6 +1,4 @@
-
-<a href="https://austmarsrover.com/"><img src="https://austmarsrover.com/wp-content/uploads/2019/10/amr_logo.png" title="Aust Mars Rover" alt="Aust Mars Rover">
-</a>
+<p align="center"><a href="https://austmarsrover.com/"><img src="https://austmarsrover.com/wp-content/uploads/2019/10/amr_logo.png" title="Aust Mars Rover" alt="Aust Mars Rover"></a></p>
 
 <!-- [![AMR](https://austmarsrover.com/wp-content/uploads/2019/10/amr_logo.png)](https://austmarsrover.com/) -->
 
