@@ -21,8 +21,8 @@ import java.util.ArrayList;
 public class NIOClient {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-
-        InetSocketAddress crunchifyAddr = new InetSocketAddress("192.168.127.1", 1111);
+//1111
+        InetSocketAddress crunchifyAddr = new InetSocketAddress("192.168.123.103",28280 );
         SocketChannel crunchifyClient = SocketChannel.open(crunchifyAddr);
 
 		ArrayList<String> companyDetails = new ArrayList<String>();
@@ -55,10 +55,10 @@ public class NIOClient {
 //            buffer.clear();
 //        }
 
-//                ByteBuffer crunchifyBuffer = ByteBuffer.allocate(128);
-        //		crunchifyClient.read(crunchifyBuffer);
-        //		String result = new String(crunchifyBuffer.array()).trim();
-        //                System.out.println("Respose = "+result);
+        ByteBuffer crunchifyBuffer = ByteBuffer.allocate(128);
+        crunchifyClient.read(crunchifyBuffer);
+        String result = new String(crunchifyBuffer.array()).trim();
+        System.out.println("Respose = " + result);
         crunchifyClient.close();
     }
 
