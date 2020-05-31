@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://austmarsrover.com/"><img src="https://austmarsrover.com/wp-content/uploads/2019/10/amr_logo.png" title="Aust Mars Rover" alt="Aust Mars Rover"></a></p>
 
 <!-- [![AMR](https://austmarsrover.com/wp-content/uploads/2019/10/amr_logo.png)](https://austmarsrover.com/) -->
@@ -23,3 +24,6 @@ This is the java code of AUST mars rover
 - jackson(for json)
 - etc.
 
+=======
+# test
+>>>>>>> 7bfd52111e7286f9ccbabe2b2a83f94173fc2d81
